@@ -90,24 +90,24 @@ collections:
       - {label: 'Path', name: 'permalink', widget: 'string', default: '/slug/'}
       - {label: 'Description', name: 'description', widget: 'text', hint: 'Meta description', default: 'About this page...'}
 
-#       - label: 'Page Sections'
-#         name: 'section'
-#         widget: 'list'
-#         types:
-#           - label: 'Full Width Hero'
-#             name: 'fullhero'
-#             widget: 'object'
-#             fields:
-#               - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
-#               - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
-#               - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
-#               - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
-#               - label: 'Call To Action'
-#                 name: 'cta'
-#                 widget: 'object'
-#                 fields:
-#                 - {label: 'Title', name: 'title', widget: 'string', default: 'Title'}
-#                 - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
+      - label: 'Page Sections'
+        name: 'section'
+        widget: 'list'
+        types:
+          - label: 'Full Width Hero'
+            name: 'fullhero'
+            widget: 'object'
+            fields:
+              - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
+              - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
+              - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
+              - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
+              - label: 'Call To Action'
+                name: 'cta'
+                widget: 'object'
+                fields:
+                - {label: 'Title', name: 'title', widget: 'string', default: 'Title'}
+                - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
 #           - label: 'Half Hero'
 #             name: 'halfhero'
 #             widget: object
@@ -180,19 +180,19 @@ collections:
 #                   - { label: 'Image Right', value: '3' }
 #                 default: '1'
 
-#  #Blog Posts set up
-#   - name: 'blog'
-#     label: 'Blog'
-#     folder: '_posts/'
-#     create: true
-#     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-#     editor:
-#       preview: false
-#     fields:
-#       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-#       - {label: 'Title', name: 'title', widget: 'string'}
-#       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-#       - {label: 'Title', name: 'title', widget: 'string'}
-#       - {label: 'Categories', name: 'categories', widget: 'string'}
-#       - {label: 'Author', name: 'author', widget: 'string'}
-#       - {label: 'Body', name: 'body', widget: 'markdown'}
+ #Blog Posts set up
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Categories', name: 'categories', widget: 'string'}
+      - {label: 'Author', name: 'author', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
