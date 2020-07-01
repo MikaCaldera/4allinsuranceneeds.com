@@ -12,11 +12,20 @@ $theme-colors: (
   grey: #e1e1e1,
 );
 
+// Global Variables
+$link-color:            map-get($theme-colors, 'bam');
+$link-hover-color:      darken(map-get($theme-colors, 'bam'), 5%);
+$link-hover-decoration: none;
+$spacer: 1rem;
+
+// Fonts
 $primary-font-family: 'Raleway', sans-serif;
 $font-family-base: 'Yellowtail', sans-serif;
 $font-family-second: Raleway, sans-serif;
 
-// Fonts
+// typography
+$enable-responsive-font-sizes: true;
+
 $font-size-sm: 1rem;
 
 // header sizes

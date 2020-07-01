@@ -3,13 +3,13 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Starter Kit From Sandoche
+title: Mei-Ling Siu-Caldera
 email: your-email@example.com
-description: A super website made with love and fustration
+description: Mei-Ling proudly represents top-rated insurance companies and Medicare Advantage Plan carriers. She has many years of experience finding the best coverage to fit your unique needs, with passion and commitment.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  MikaCaldera
-author: Mika Caldera, Rebel Interactive Group
+author: Mika Caldera
 logo: assets/images/large-logo.png
 social:
   name: Mika Caldera
