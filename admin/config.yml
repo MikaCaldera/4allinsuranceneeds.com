@@ -179,8 +179,8 @@ collections:
                   - {label: 'Image Right', value: '3'}
                 default: '1'
     #Blog Posts set up
-    - name: 'blog'
-      label: 'Blog'
+    - label: 'Blog'
+      name: 'blog'
       folder: '_posts/'
       create: true
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
