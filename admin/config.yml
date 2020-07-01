@@ -94,20 +94,20 @@ collections:
         name: 'section'
         widget: 'list'
         types:
-          - label: 'Full Width Hero'
-            name: 'fullhero'
-            widget: 'object'
-            fields:
-              - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
-              - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
-              - {label: 'Hero Image', name: 'heroimage', widget: 'image', default: 'https://placekitten.com/640/360'}
-              - {label: 'Alt Tag', name: 'alt', widget: 'string', default: 'Image Description'}
-              - label: 'Call To Action'
-                name: 'cta'
-                widget: 'object'
-                fields:
-                - {label: 'Name', name: 'name', widget: 'string', default: 'name'}
-                - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
+          # - label: 'Full Width Hero'
+          #   name: 'fullhero'
+          #   widget: 'object'
+          #   fields:
+          #     - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
+          #     - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
+          #     - {label: 'Hero Image', name: 'heroimage', widget: 'image', default: 'https://placekitten.com/640/360'}
+          #     - {label: 'Alt Tag', name: 'alt', widget: 'string', default: 'Image Description'}
+          #     - label: 'Call To Action'
+          #       name: 'cta'
+          #       widget: 'object'
+          #       fields:
+          #       - {label: 'Name', name: 'name', widget: 'string', default: 'name'}
+          #       - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
 
           # - label: 'Half Hero'
           #   name: 'halfhero'
