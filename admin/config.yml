@@ -89,33 +89,34 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', default: 'Title'}
       - {label: 'Path', name: 'permalink', widget: 'string', default: '/slug/'}
       - {label: 'Description', name: 'description', widget: 'text', hint: 'Meta description', default: 'About this page...'}
-      # - label: 'Page Sections'
-      #   name: 'section'
-      #   widget: 'list'
-      #   types:
-      #     - label: 'Full Width Hero'
-      #       name: 'fullhero'
-      #       widget: 'object'
-      #       fields:
-      #         - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
-      #         - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
-      #         - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
-      #         - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
-      #         - label: 'Call To Action'
-      #           name: 'cta'
-      #           widget: 'object'
-      #           fields:
-      #           - {label: 'Title', name: 'title', widget: 'string', default: 'Title'}
-      #           - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
-          # - label: 'Half Hero'
-          #   name: 'halfhero'
-          #   widget: object
-          #   fields:
-          #     - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
-          #     - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
-          #     - {label: Header, name: header, widget: 'string', default: 'Header'}
-          #     - {label: Blurb, name: blurb, widget: 'markdown', default: 'Blurb'}
-          # - label: 'Simple Content - wysiwyg'
+
+#       - label: 'Page Sections'
+#         name: 'section'
+#         widget: 'list'
+#         types:
+#           - label: 'Full Width Hero'
+#             name: 'fullhero'
+#             widget: 'object'
+#             fields:
+#               - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
+#               - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
+#               - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
+#               - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
+#               - label: 'Call To Action'
+#                 name: 'cta'
+#                 widget: 'object'
+#                 fields:
+#                 - {label: 'Title', name: 'title', widget: 'string', default: 'Title'}
+#                 - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
+#           - label: 'Half Hero'
+#             name: 'halfhero'
+#             widget: object
+#             fields:
+#               - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
+#               - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
+#               - {label: Header, name: header, widget: 'string', default: 'Header'}
+#               - {label: Blurb, name: blurb, widget: 'markdown', default: 'Blurb'}
+#           - label: 'Simple Content - wysiwyg'
 #             name: 'wysiwyg'
 #             widget: 'list'
 #             fields:
