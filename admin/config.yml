@@ -34,43 +34,43 @@ collections:
             - {label: 'Text', name: 'text', widget: 'string', default: 'Call Number Text' }
             - {label: 'Greeting', name: 'greeting', widget: 'string', default: 'Greeting'}
             - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
-#       - label: 'Main Navigation'
-#         name: 'navigation'
-#         file: '_data/navigation.yml'
-#         description: 'Navigation configuration'
-#         fields:
-#           - label: 'Navigation Items'
-#             name: 'primary'
-#             widget: 'list'
-#             fields:
-#               - {label: 'Title', name: 'title', widget: 'string', default: 'Navigation Item'}
-#               - {label: 'Link', name: 'link', widget: 'string', default: '#'}
-#               - label: 'Sub-Menu Items'
-#                 name: 'submenuitems'
-#                 widget: 'list'
-#                 fields:
-#                   - {label: 'Title', name: 'title', widget: 'string', default: 'Submenu Item'}
-#                   - {label: 'Link', name: 'link', widget: 'string', default: '#'}
-#           - label: 'Footer Navigation Items'
-#             name: 'footer'
-#             widget: 'list'
-#             fields:
-#               - {label: 'Title', name: 'title', widget: 'string', default: 'Footer Menu'}
-#               - {label: 'Link', name: 'link', widget: 'string', default: '#'}
-#       - label: 'Social Media'
-#         name: 'socialmedia'
-#         file: '_data/socialmedia.yml'
-#         description: 'Social media configuration'
-#         fields:
-#           - { label: 'Facebook URL', name: 'facebook', widget: 'string', default: '#'}
-#           - { label: 'Twitter URL', name: 'twitter', widget: 'string', default: '#'}
-#           - { label: 'Instagram URL', name: 'instagram', widget: 'string', default: '#'}
-#       - label: 'Contact Forms'
-#         name: 'contactforms'
-#         file: '_data/forms.yml'
-#         description: 'Site contact form'
-#         fields:
-#           - {label: 'Form HTML', name: 'html', widget: 'text', default: 'Contact form can be pasted here.'}
+      - label: 'Main Navigation'
+        name: 'navigation'
+        file: '_data/navigation.yml'
+        description: 'Navigation configuration'
+        fields:
+          - label: 'Navigation Items'
+            name: 'primary'
+            widget: 'list'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string', default: 'Navigation Item'}
+              - {label: 'Link', name: 'link', widget: 'string', default: '#'}
+              - label: 'Sub-Menu Items'
+                name: 'submenuitems'
+                widget: 'list'
+                fields:
+                  - {label: 'Title', name: 'title', widget: 'string', default: 'Submenu Item'}
+                  - {label: 'Link', name: 'link', widget: 'string', default: '#'}
+          - label: 'Footer Navigation Items'
+            name: 'footer'
+            widget: 'list'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string', default: 'Footer Menu'}
+              - {label: 'Link', name: 'link', widget: 'string', default: '#'}
+      - label: 'Social Media'
+        name: 'socialmedia'
+        file: '_data/socialmedia.yml'
+        description: 'Social media configuration'
+        fields:
+          - { label: 'Facebook URL', name: 'facebook', widget: 'string', default: '#'}
+          - { label: 'Twitter URL', name: 'twitter', widget: 'string', default: '#'}
+          - { label: 'Instagram URL', name: 'instagram', widget: 'string', default: '#'}
+      - label: 'Contact Forms'
+        name: 'contactforms'
+        file: '_data/forms.yml'
+        description: 'Site contact form'
+        fields:
+          - {label: 'Form HTML', name: 'html', widget: 'text', default: 'Contact form can be pasted here.'}
 
 # #Pages set up
 #   - label: 'Create New Page'
