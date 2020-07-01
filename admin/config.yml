@@ -27,7 +27,6 @@ collections:
           - {label: 'Google Analytics', name: 'googleanalytics', widget: 'string', default: 'Google Analytics Number'}
           - {label: 'Logo', name: 'logo', widget: 'image', default: '/assets/images/large-logo.png'}
           - {label: 'Header Message', name: 'header', widget: 'string', default: 'Header Message'}
-          - {label: 'Footer Message', name: 'footer', widget: 'string', default: 'Footer Message'}
           - label: 'Call Number'
             name: 'number'
             widget: 'object'

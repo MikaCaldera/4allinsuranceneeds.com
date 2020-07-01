@@ -5,7 +5,6 @@ googleanalytics: "123456"
 logo: assets/images/icon.png
 message: "Header Message "
 header: Life & Health Insurance Agent
-footer: Footer Message
 number:
   greeting: Life & Health Insurance Agent
   link: 860-874-1495

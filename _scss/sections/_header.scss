@@ -1,17 +1,18 @@
-.header { 
-  @extend .px-5, .pt-4, .pt-md-5, .text-white, .bg-dark, .mb-0;
-
+.header {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 
   .intro-copy {
-    @extend .bg-primary;
+    @extend .bg-primary, .py-5;
 
     .headline {
       @extend .mt-2;
     }
     .subheader {
       @extend .my-3, .lead;
+
+      font-family: $font-family-second;
+
     }
     .lead {
       @extend .mb-0;

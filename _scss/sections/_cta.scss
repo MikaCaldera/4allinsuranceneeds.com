@@ -14,7 +14,7 @@
 
     .card-body {
       @extend .text-center, .bg-primary;
-  
+
       .card-title {
         text-transform: uppercase;
         color: theme-color("primary");
@@ -24,6 +24,7 @@
         color: theme-color("grey-200");
         font-weight: 400;
         line-height: 1.8rem;
+        font-family: $font-family-second;;
       }
     }
   }

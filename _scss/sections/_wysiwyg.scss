@@ -2,8 +2,12 @@
   .content {
     @extend .justify-content-center, .h-100, .p-5;
 
-    h3 { 
+    h3 {
       @extend .my-2;
+    }
+
+    .blurb {
+      font-family: $font-family-second;
     }
   }
 }
