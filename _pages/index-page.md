@@ -14,40 +14,11 @@ section:
     heroimage: https://placekitten.com/640/360
     subheader: Subheader
     type: fullhero
-  - alt: Image Description
-    blurb: Blurb
-    header: Header
-    heroimage: https://placekitten.com/640/360
-    type: halfhero
   - bgcolor: bg-secondary
     content: Content
     header: Header
     textcolor: text-white
     type: wysiwyg
-  - content: Content
-    header: Header
-    service:
-      - alt: Image Description
-        image: https://placekitten.com/640/360
-        link: URL
-        text: Text
-      - alt: Image Description
-        image: https://placekitten.com/640/360
-        link: URL
-        text: Text
-      - alt: Image Description
-        image: https://placekitten.com/640/360
-        link: URL
-        text: Text
-      - alt: Image Description
-        image: https://placekitten.com/640/360
-        link: URL
-        text: Text
-      - alt: Image Description
-        image: https://placekitten.com/640/360
-        link: URL
-        text: Text
-    type: services
   - ctas:
       - alt: Image Description
         blurb: Blurb
