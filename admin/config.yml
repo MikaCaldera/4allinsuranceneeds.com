@@ -126,13 +126,13 @@ collections:
                 widget: 'select'
                 options:
                   - {label: 'Secondary', value: 'bg-secondary'}
-                  - {label: 'White', value: 'bg-white' }
+                  - {label: 'White', value: 'bg-white'}
                 default: 'bg-secondary'
               - label: 'Text Color'
                 name: 'textcolor'
                 widget: 'select'
                 options:
-                  - {label: 'Secondary', value: 'text-secondary' }
+                  - {label: 'Secondary', value: 'text-secondary'}
                   - {label: 'White', value: 'text-white'}
                 default: 'text-white'
           - label: 'Services List'
@@ -175,6 +175,22 @@ collections:
                 name: 'alignimage'
                 widget: 'select'
                 options:
-                  - { label: 'Image Left', value: '1' }
-                  - { label: 'Image Right', value: '3' }
+                  - {label: 'Image Left', value: '1'}
+                  - {label: 'Image Right', value: '3'}
                 default: '1'
+    #Blog Posts set up
+    - name: 'blog'
+      label: 'Blog'
+      folder: '_posts/'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      editor:
+        preview: false
+      fields:
+        - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+        - {label: 'Title', name: 'title', widget: 'string'}
+        - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+        - {label: 'Title', name: 'title', widget: 'string'}
+        - {label: 'Categories', name: 'categories', widget: 'string'}
+        - {label: 'Author', name: 'author', widget: 'string'}
+        - {label: 'Body', name: 'body', widget: 'markdown'}
