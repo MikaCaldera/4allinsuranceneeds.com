@@ -98,7 +98,7 @@ collections:
             widget: 'object'
             fields:
               - {label: 'Headline', name: 'headline', widget: 'string', default: 'Headline'}
-              - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'} 
+              - {label: 'Subheader', name: 'subheader', widget: 'string', default: 'Subheader'}
               - {label: Hero Image, name: heroimage, widget: 'image', default: 'https://placekitten.com/640/360'}
               - {label: Alt Tag, name: alt, widget: 'string', default: 'Image Description'}
               - label: 'Call To Action'
@@ -179,11 +179,11 @@ collections:
                   - { label: 'Image Right', value: '3' }
                 default: '1'
 
- #Blog Posts set up         
+ #Blog Posts set up
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
-    create: true 
+    create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
@@ -195,5 +195,3 @@ collections:
       - {label: 'Categories', name: 'categories', widget: 'string'}
       - {label: 'Author', name: 'author', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-
-
