@@ -1,15 +1,8 @@
-primary:
-  - link: '#'
-    submenuitems:
-      - link: '#'
-        title: Submenu Item
-    title: Navigation Item
-  - link: '#'
-    title: Navigation Item
+primary: []
 footer:
-  - link: '#'
+  - link: "#"
     title: Footer Menu
-  - link: '#'
+  - link: "#"
     title: Footer Menu
-  - link: '#'
+  - link: "#"
     title: Footer Menu
