@@ -11,6 +11,7 @@ media_folder: '_images'
 public_folder: 'assets/images'
 
 collections:
+  #General Site Settings
   - label: 'Site Settings'
     name: 'site'
     editor:
@@ -21,17 +22,17 @@ collections:
         file: '_data/general.yml'
         description: 'Header configuration'
         fields:
-          - { label: 'Site Name', name: 'title', widget: 'string', default: 'Site Name'}
-          - { label: 'Description', name: 'description', widget: 'text', default: 'Add site description here.. '}
-          - { label: 'Google Analytics', name: 'googleanalytics', widget: 'string', default: 'Google Analytics Number'}
-          - { label: 'Logo', name: 'logo', widget: 'image', default: '/assets/images/large-logo.png'}
-          - { label: 'Header Message', name: 'header', widget: 'string', default: 'Header Message'}
-          - { label: 'Footer Message', name: 'footer', widget: 'string', default: 'Footer Message'}
+          - {label: 'Site Name', name: 'title', widget: 'string', default: 'Site Name'}
+          - {label: 'Description', name: 'description', widget: 'text', default: 'Add site description here.. '}
+          - {label: 'Google Analytics', name: 'googleanalytics', widget: 'string', default: 'Google Analytics Number'}
+          - {label: 'Logo', name: 'logo', widget: 'image', default: '/assets/images/large-logo.png'}
+          - {label: 'Header Message', name: 'header', widget: 'string', default: 'Header Message'}
+          - {label: 'Footer Message', name: 'footer', widget: 'string', default: 'Footer Message'}
           - label: 'Call Number'
             name: 'number'
             widget: 'object'
             fields:
-            - {label: 'Text', name: 'text', widget: 'string', default: 'Call Number Text' }
+            - {label: 'Text', name: 'text', widget: 'string', default: 'Call Number Text'}
             - {label: 'Greeting', name: 'greeting', widget: 'string', default: 'Greeting'}
             - {label: 'Link', name: 'link', widget: 'string', default: 'URL'}
       - label: 'Main Navigation'
@@ -62,17 +63,16 @@ collections:
         file: '_data/socialmedia.yml'
         description: 'Social media configuration'
         fields:
-          - { label: 'Facebook URL', name: 'facebook', widget: 'string', default: '#'}
-          - { label: 'Twitter URL', name: 'twitter', widget: 'string', default: '#'}
-          - { label: 'Instagram URL', name: 'instagram', widget: 'string', default: '#'}
+          - {label: 'Facebook URL', name: 'facebook', widget: 'string', default: '#'}
+          - {label: 'Twitter URL', name: 'twitter', widget: 'string', default: '#'}
+          - {label: 'Instagram URL', name: 'instagram', widget: 'string', default: '#'}
       - label: 'Contact Forms'
         name: 'contactforms'
         file: '_data/forms.yml'
         description: 'Site contact form'
         fields:
           - {label: 'Form HTML', name: 'html', widget: 'text', default: 'Contact form can be pasted here.'}
-
-#Pages set up
+  #Pages New Pages
   - label: 'Create New Page'
     name: 'pages'
     folder: '_pages'
@@ -178,20 +178,3 @@ collections:
                   - { label: 'Image Left', value: '1' }
                   - { label: 'Image Right', value: '3' }
                 default: '1'
-
- #Blog Posts set up
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Categories', name: 'categories', widget: 'string'}
-      - {label: 'Author', name: 'author', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
