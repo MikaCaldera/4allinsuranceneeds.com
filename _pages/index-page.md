@@ -56,7 +56,7 @@ section:
       Born and raised in Nicaragua, the youngest of 12 and of Chinese descent, she is multicultural, sensitive and caring about those whom she serves. While she was orphaned before she was 16, it did not deter her from becoming a medical doctor and obtain a doctorate in Nutrition while raising 4 children. Before becoming a full-time insurance agent, Mei-Ling did research and taught at UCONN for many years.
     header: About
     image: assets/images/meilingcaldera.jpg
-    link: Link Title
+    link: Connect on Linkedin
     type: mediatext
-    url: Url
+    url: https://www.linkedin.com/in/mei-ling-siu-caldera-58b70a20/
 ---
