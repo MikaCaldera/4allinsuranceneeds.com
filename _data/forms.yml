@@ -1,4 +1,5 @@
 html: >-
+  <h3><a id="questions"></a>Greetings!</h3>
   <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
     <div class="form-group">
       <label for="name">Name:</label>
@@ -16,5 +17,5 @@ html: >-
 
     <p><div data-netlify-recaptcha="true"></div></p>
 
-    <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
   </form>

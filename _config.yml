@@ -4,7 +4,7 @@
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
 title: Mei-Ling Siu-Caldera
-email: your-email@example.com
+email: mcaldera23@gmail.com
 description: Mei-Ling proudly represents top-rated insurance companies and Medicare Advantage Plan carriers. She has many years of experience finding the best coverage to fit your unique needs, with passion and commitment.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

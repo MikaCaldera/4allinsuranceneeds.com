@@ -5,6 +5,8 @@
   .intro-copy {
     @extend .bg-primary, .py-5;
 
+    border-radius: 0.5rem;
+
     .headline {
       @extend .mt-2;
     }
