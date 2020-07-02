@@ -1,20 +1,23 @@
 <!-- Footer  -->
-<footer class="container-fluid bg-secondary">
+<footer class="container-fluid">
   <section class="container">
-    <div class="row">
-      <div class="col-12 col-md">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md address">
+        <address class="address">
+          {{ site.address }}
+        </address>
         <img class="img-responsive d-inline-block align-top" height="50px"
         src="{{ site.data.general.logo | relative_url }}" alt="">
         <small class="d-block mb-3 text-muted">© 2020</small>
       </div>
-      <div class="col-12 col-md">
+      <div class="col-12 col-md number-hold">
         {% assign number = site.data.general.number %}
         {% if number %}
             <span class="text d-block lead">{{ number.greeting }}</span>
             <a class="number" href="{{ number.link }}">{{ number.link }}</a>
         {% endif %}
       </div>
-      <div class="col-12 col-md">
+      <div class="col-12 col-md form">
         <!-- Form Html -->
         {% assign form = site.data.forms %}
         {% if form.html %}

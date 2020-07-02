@@ -57,6 +57,7 @@ collections:
             fields:
               - {label: 'Title', name: 'title', widget: 'string', default: 'Footer Menu'}
               - {label: 'Link', name: 'link', widget: 'string', default: '#'}
+              - {label: 'Address', name: 'address', widget: 'markdown', default: 'address'}
       - label: 'Social Media'
         name: 'socialmedia'
         file: '_data/socialmedia.yml'
@@ -72,7 +73,7 @@ collections:
         fields:
           - {label: 'Form HTML', name: 'html', widget: 'text', default: 'Contact form can be pasted here.'}
   #Pages New Pages
-  - label: 'Create New Page'
+  - label: 'Pages'
     name: 'pages'
     folder: '_pages'
     create: true
