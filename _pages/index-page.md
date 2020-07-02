@@ -34,18 +34,18 @@ section:
 
           Medicare Advantage, Rx, Medicare Supplement, Individual, Cancer, Stroke, Heart Attack, Dental, Vision, Hospital Indemnity, Access Health
         header: Health Insurance
-        image: assets/images/jan-kronies-y3iefnca_wc-unsplash.png
+        image: assets/images/dylan-sauerwein-698i_1t0zva-unsplash.png
       - alt: Image Description
         blurb: |-
           Whole & Term
 
           Whole & Term Insurance, Funeral Insurance
         header: Life Insurance
-        image: https://placekitten.com/640/360
+        image: assets/images/jan-kronies-y3iefnca_wc-unsplash.png
       - alt: Image Description
         blurb: Annuities, 401k rollovers
         header: Annuities
-        image: https://placekitten.com/640/360
+        image: assets/images/nick-dunn-obqxtsx3cvk-unsplash.png
     type: cta
   - alignimage: "1"
     alt: Image Description
