@@ -3,7 +3,7 @@
     @extend .justify-content-center, .h-100, .p-5;
 
     h3 {
-      @extend .my-2;
+      @extend .my-2, .py-4;
     }
 
     .blurb {

@@ -1,11 +1,8 @@
 // Footer Section
-footer {  
+footer {
   @extend .py-3;
-
-  color: theme-color("grey-200");
 }
 
 .footer {
-  padding: 30px 0;
-  margin-top: 80px;
+  @extend .py-1;
 }

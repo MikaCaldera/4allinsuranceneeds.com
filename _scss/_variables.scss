@@ -4,7 +4,7 @@
 // Variables
 $theme-colors: (
   primary: #E7717D,
-  second: #C2C9CF,
+  secondary: #C2C9CF,
   tertiary: #AFD274,
   fourth: #C1B9B0,
   fifth: #7D695A,
@@ -29,11 +29,11 @@ $enable-responsive-font-sizes: true;
 $font-size-sm: 1rem;
 
 // header sizes
-$h1-font-size: 3rem;
-$h2-font-size: 2rem;
-$h3-font-size: 1.5rem;
-$h4-font-size: 0.95rem;
-$h5-font-size: 0.8rem;
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1rem;
 $font-weight-base: 100;
 
 // Cards
@@ -41,4 +41,4 @@ $card-border-radius: 0;
 
 // Buttons
 $btn-font-family: $font-family-second;
-$btn-font-weight: 600;
+$btn-font-weight: 500;

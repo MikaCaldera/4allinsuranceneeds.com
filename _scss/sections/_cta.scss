@@ -1,6 +1,6 @@
 // Call to Actions
-.cta {
-  @extend .py-1, .bg-primary, .mb-2;
+.calltoaction {
+  @extend .py-5, .my-5;
 
   .card-cta {
     @extend .h-100, .border-0, .bg-transparent;
@@ -8,8 +8,7 @@
     img{
       @extend .mx-auto;
 
-      height: 84px;
-      width: 84px;
+      width: $spacer*12;
     }
 
     .card-body {
@@ -24,7 +23,7 @@
         color: theme-color("grey-200");
         font-weight: 400;
         line-height: 1.8rem;
-        font-family: $font-family-second;;
+        font-family: $font-family-second;
       }
     }
   }
