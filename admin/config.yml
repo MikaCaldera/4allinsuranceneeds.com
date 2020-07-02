@@ -27,6 +27,7 @@ collections:
           - {label: 'Google Analytics', name: 'googleanalytics', widget: 'string', default: 'Google Analytics Number'}
           - {label: 'Logo', name: 'logo', widget: 'image', default: '/assets/images/large-logo.png'}
           - {label: 'Header Message', name: 'header', widget: 'string', default: 'Header Message'}
+          - {label: 'Address', name: 'address', widget: 'markdown', default: 'address'}
           - label: 'Call Number'
             name: 'number'
             widget: 'object'
@@ -57,7 +58,6 @@ collections:
             fields:
               - {label: 'Title', name: 'title', widget: 'string', default: 'Footer Menu'}
               - {label: 'Link', name: 'link', widget: 'string', default: '#'}
-              - {label: 'Address', name: 'address', widget: 'markdown', default: 'address'}
       - label: 'Social Media'
         name: 'socialmedia'
         file: '_data/socialmedia.yml'
