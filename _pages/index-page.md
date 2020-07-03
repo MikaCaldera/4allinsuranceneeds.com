@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Index Page
+title: "Life & Health "
 permalink: /
 description: "Mei-Ling proudly represents top-rated insurance companies and
   Medicare Advantage Plan carriers. She has many years of experience finding the
