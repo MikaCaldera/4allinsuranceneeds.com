@@ -4,7 +4,7 @@
     <div class="row d-flex align-items-center">
       <div class="col-12 col-md address">
         <address class="address">
-          {{ site.data.general.address }}
+          {{ site.data.general.address | markdownify }}
         </address>
         <img class="img-responsive d-inline-block align-top" height="50px"
         src="{{ site.data.general.logo | relative_url }}" alt="">
